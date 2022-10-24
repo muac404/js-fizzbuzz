@@ -26,10 +26,10 @@ h1{
 
 
 .casella{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     text-align: center;
-    line-height: 120px;
+    line-height: 100px;
     margin: 15px;
     
     background-color: #1389b2;
