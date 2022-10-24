@@ -10,8 +10,11 @@ for (let i = 1; i < 101; i++){
         console.log("FizzBuzz")
         const boardNumber = document.createElement('div')
         boardNumber.classList.add('casella')
+        
         boardNumber.innerHTML = result
         boardContainer.append(boardNumber)
+        boardNumber.classList.add('red__style')
+
     }
 
     else if (i % 3 === 0){
@@ -21,6 +24,7 @@ for (let i = 1; i < 101; i++){
         boardNumber.classList.add('casella')
         boardNumber.innerHTML = result
         boardContainer.append(boardNumber)
+        boardNumber.classList.add('green__style')
     }
 
     else if (i % 5 === 0){
@@ -30,6 +34,7 @@ for (let i = 1; i < 101; i++){
         boardNumber.classList.add('casella')
         boardNumber.innerHTML = result
         boardContainer.append(boardNumber)
+        boardNumber.classList.add('yellow__style')
     }
 
 
